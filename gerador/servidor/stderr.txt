@@ -1,0 +1,13 @@
+(node:2761) UnhandledPromiseRejectionWarning: TypeError [ERR_INVALID_URL]: Invalid URL: null
+    at onParseError (internal/url.js:256:9)
+    at new URL (internal/url.js:332:5)
+    at new ClientRequest (_http_client.js:91:28)
+    at request (http.js:46:10)
+    at Object.get (http.js:50:15)
+    at /var/www/html/gerador/servidor/server.js:15:16
+    at new Promise (<anonymous>)
+    at loadAccessibilityStatement (/var/www/html/gerador/servidor/server.js:10:12)
+    at Server.<anonymous> (/var/www/html/gerador/servidor/server.js:34:33)
+    at Server.emit (events.js:315:20)
+(node:2761) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:2761) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
