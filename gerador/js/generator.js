@@ -27,7 +27,7 @@
 
   var isDateSupported = true;
 
-  var fetchServer = "http://127.0.0.1/serv/?url=";
+  var fetchServer = "http://localhost:8787/serv/?url=";
 
   /**
    * statementForm module
