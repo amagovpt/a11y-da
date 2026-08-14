@@ -27,7 +27,7 @@
 
   var isDateSupported = true;
 
-  var fetchServer = "http://127.0.0.1/serv/?url=";
+  var fetchServer = "http://localhost:8787/serv/?url=";
 
   /**
    * statementForm module
@@ -1088,7 +1088,7 @@
       return;
 
     // get doc from url and parse doc
-    var serviceUrl = fetchServer + url;
+    var serviceUrl = fetchServer + encodeURIComponent(url);
     var request = new XMLHttpRequest();
     request.open("GET", serviceUrl);
     request.onreadystatechange = function () {
