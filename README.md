@@ -4,7 +4,7 @@ A Decisão de Execução (UE) 2018/1523 da Comissão, de 11 de outubro de 2018, 
 
 Em Portugal a transposição da Diretiva (UE) 2016/2102 foi transposta para o ordenamento jurídico nacional pelo DL nº 83/2018.
 
-> Todos os sítios Web e aplicações móveis estão obrigadas a publicar a sua Declaração de Acessibilidade.
+> Todos os sítios Web e aplicações móveis estão obrigados a publicar a sua Declaração de Acessibilidade.
 
 O Gerador da Declaração de Acessibilidade permite gerar a Declaração para sítios Web e para aplicações móveis segundo este modelo.
 
