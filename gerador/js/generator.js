@@ -27,7 +27,7 @@
 
   var isDateSupported = true;
 
-  var fetchServer = "http://localhost:8787/serv/?url=";
+  var fetchServer = "https://gerador-api.getstatement.workers.dev/serv/?url=";
 
   /**
    * statementForm module
