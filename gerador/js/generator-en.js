@@ -27,7 +27,7 @@
 
   var isDateSupported = true;
 
-  var fetchServer = "https://www.acessibilidade.gov.pt/serv/?url=";
+  var fetchServer = "https://gerador-api.getstatement.workers.dev/serv/?url=";
 
   /**
    * statementForm module
