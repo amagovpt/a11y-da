@@ -27,7 +27,7 @@
 
   var isDateSupported = true;
 
-  var fetchServer = "https://www.acessibilidade.gov.pt/serv/?url=";
+  var fetchServer = "https://gerador-api.getstatement.workers.dev/serv/?url=";
 
   /**
    * statementForm module
@@ -1077,7 +1077,7 @@
       return;
 
     // get doc from url and parse doc
-    var serviceUrl = fetchServer + url;
+    var serviceUrl = fetchServer + encodeURIComponent(url);
     var request = new XMLHttpRequest();
     request.open("GET", serviceUrl);
     request.onreadystatechange = function () {
